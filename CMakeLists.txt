@@ -10,7 +10,7 @@ link_directories(${GTKMM_LIBRARY_DIRS})
 
 
 
-add_executable(proj main.cpp)
+add_executable(proj main.cpp App.cpp)
 
 target_compile_options(${PROJECT_NAME} PRIVATE
   -Wall -Wextra -Wpedantic
